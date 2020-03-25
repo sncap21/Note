@@ -21,6 +21,9 @@ gradlew 실행 시 아래와 같은 오류 발생
    
 [ python get-pip.py 오류 ]
 
+* error message : docker compose https://bootstrap.pypa.io/get-pip.py resolving bootstrap.pypa.io (bootstrap.pypa.io)... 151.101.108.175, 2a04:4e42:36::175 connecting to bootstrap.pypa.io (bootstrap.pypa.io)|151.101.108.175|:443... connected. 
+error: cannot verify bootstrap.pypa.io's certificate, issued by 'cn=koscom,ou=koscom,o=koscom,l=seoul,st=ca,c=kr': self-signed certificate encountered.
+
 1. 원인 : get-pip.py 내에서 ssl 통신을 수행하는데 인증서 오류 발생 (KOSCOM self signed 인증서)
 2. 해결 : pip 를 설치하는 방법은 python get-pip.py 이외에 uuntu는 apt-get install python-pip로 가능 -> 스크립트 수정
 
