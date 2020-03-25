@@ -2,7 +2,7 @@
 
 [ gralde wrapper error ]
 
-gradlew 실행 시 아래와 같은 오류 발생
+* gradlew 실행 시 아래와 같은 오류 발생
 -- gradle wrapper exception in thread "main" javax.net.ssl.sslhandshakeexception: sun.security.validator.validatorexception: pkix path building failed: sun.security.provider.certpath.suncertpathbuilderexception: unable to find valid certification path to requested target
 
 1. 원인 : gradlew의 download site에 대한 인증서가 local machine 에 존재하지 않음
