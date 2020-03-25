@@ -1,6 +1,7 @@
 # 마이크로서비스 패턴 실습환경 구성
 
 [ gralde wrapper error ]
+
 gradlew 실행 시 아래와 같은 오류 발생
 -- gradle wrapper exception in thread "main" javax.net.ssl.sslhandshakeexception: sun.security.validator.validatorexception: pkix path building failed: sun.security.provider.certpath.suncertpathbuilderexception: unable to find valid certification path to requested target
 
